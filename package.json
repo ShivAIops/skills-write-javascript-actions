@@ -20,8 +20,21 @@
   "homepage": "https://github.com/ShivAIops/skills-write-javascript-actions#readme",
   "dependencies": {
     "@actions/core": "^3.0.1",
-    "@vercel/ncc": "^0.45.0",
     "request": "^2.88.2",
     "request-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.45.0"
   }
+}
+"scripts": {
+      // Existing scripts...
+         "build": "ncc build src/main.js -o dist"{
+          "name": "}",
+          "description": "description",
+          "authors": "author",
+          "version": "1.0.0",
+          "main": "pathToMain",
+          "dependencies": {}
+         }
 }
